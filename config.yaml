@@ -1,0 +1,22 @@
+# Global Exoplanet Deep Learning Engine Configuration Profile
+
+data:
+  raw_csv_path: "data/raw/kepler_data.csv"
+  processed_dir: "data/processed"
+  sequence_length: 2000
+  test_split_ratio: 0.2
+  random_seed: 42
+
+model:
+  name: "Exoplanet1DCNN"
+  weights_dir: "models"
+  weights_filename: "exoplanet_cnn_mvp.pth"
+
+training:
+  epochs: 15
+  batch_size: 64
+  learning_rate: 0.0005
+
+logging:
+  output_dir: "docs/images"
+  plot_filename: "exoplanet_training_metrics.png"
