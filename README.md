@@ -227,7 +227,7 @@ Contributions are highly encouraged! Please follow these development steps:
 
 ### Author
 
-* **Krish Kamra** - [Your GitHub Profile](https://github.com/KrishKamra)
+* **Krish Kamra** - [GitHub Profile](https://github.com/KrishKamra)
 * **Project Context:** Built to automate exoplanet detection using highly reliable data engineering and deep learning architectures.
 
 ---
